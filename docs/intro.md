@@ -1,47 +1,29 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Veri Analizi Okulu Yardım Merkezi
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Veri Analizi Okulu platformuna hoş geldiniz! Bu yardım merkezi, platformumuzu en verimli şekilde kullanmanız için ihtiyaç duyacağınız tüm bilgileri içermektedir.
 
-## Getting Started
+## 🚀 Hızlı Başlangıç
 
-Get started by **creating a new site**.
+Platformumuzu kullanmaya başlamak için aşağıdaki adımları takip edin:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. **Hesap Oluşturun** - Henüz hesabınız yoksa kayıt olun
+2. **Oturum Açın** - Mevcut hesabınızla giriş yapın
+3. **Eğitimlere Başlayın** - İlginizi çeken eğitimleri keşfedin
 
-### What you'll need
+## 📚 Yardım Konuları
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### VAO Hesabı
+Hesap işlemleri, oturum açma ve şifre yönetimi hakkında bilgi edinin.
 
-## Generate a new site
+- [Oturum Açma](/docs/vao-hesabi/oturum-acma)
+- [Şifremi Unuttum](/docs/vao-hesabi/sifremi-unuttum)
+- [Şifre Al](/docs/vao-hesabi/sifre-al)
 
-Generate a new Docusaurus site using the **classic template**.
+## ❓ Yardıma mı İhtiyacınız Var?
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Aradığınız bilgiyi bulamadıysanız, sol menüden ilgili konuyu seçebilir veya arama özelliğini kullanabilirsiniz.
