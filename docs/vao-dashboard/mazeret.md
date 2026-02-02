@@ -5,9 +5,7 @@ sidebar_position: 6
 # Mazeret / Telafi
 
 Bu sayfa, Veri Analizi Okulu platformunda katılımcıların **mazeretli dersler için telafi süreçlerini** takip edebildikleri alandır.  
-Sol menüden **Mazeret / Telafi** seçildiğinde, mevcut telafi kayıtları ve ilerleme durumu görüntülenir.
 
-## Sayfa Genel Görünümü
 
 Sayfanın üst bölümünde yeni telafi başvurusu oluşturma alanı ve özet bilgiler yer alır.
 
@@ -17,16 +15,56 @@ Sayfanın üst bölümünde yeni telafi başvurusu oluşturma alanı ve özet bi
 
 
 
-## Yeni Telafi Oluşturma
+### Yeni Telafi Oluşturma
 
-Katılımcılar, telafi yapılabilir dersler için **Yeni Telafi Oluştur** butonunu kullanarak başvuru oluşturabilir.
+Katılımcılar, telafi yapılabilir dersler için **Telafi Oluştur** butonunu kullanarak başvuru oluşturabilir.
 
-- Yalnızca telafi hakkı bulunan dersler seçilebilir
-- Telafi süreci başlatıldığında sistem otomatik kayıt oluşturur
+- Yalnızca telafi hakkı bulunan dersler seçilebilir.
+- Telafi süreci başlatıldığında sistem otomatik kayıt oluşturur.
+
+İlgili ders seçilerek telafi başvurusu oluşturulur.
+
+![Yeni telafi seçimi](/img/mazeret/mazeret4.png)
+
+Sayfanın alt kısmına telafi videosu ile ilgili bilgiler gelir. 
+
+![Video bilgisi](/img/mazeret/mazeret5.png)
+
+Sağda "İzle" butonuna tıklandığında uyarı ekranı çıkar, uyarıyı kabul etmek için "Kabul Ediyorum, Başla" butonuna tıklanmalıdır.  
+
+![Uyarı](/img/mazeret/mazeret6.png)
+
+:::danger Telafi Videosu İzleme Kuralları
+
+- **İleri Atlama:**  
+  Sadece izlediğiniz bölümler arasında geçiş yapabilirsiniz.  
+  İzlenmemiş bölümlere atlama yapılamaz.
+
+- **Oynatma Hızı:**  
+  Video sadece normal hızda (**1x**) izlenebilir.  
+  Hız değiştirme özelliği devre dışıdır.
+
+- **Ses Kontrolü:**  
+  Ses tamamen kapatılamaz.  
+  Minimum ses seviyesi korunmalıdır.
+
+- **Sekme Değişikliği:**  
+  Başka bir sekmeye geçtiğinizde video otomatik olarak duraklatılır.
+
+⚠️ Bu kurallar, video izleme takibinin doğru yapılabilmesi için gereklidir.
+
+:::
+
+Eğer telafi oluşturabileceğiniz bir ders bulunmuyorsa, örneğin dersin telafi süresi dolduysa veya devamsızlık yapılmadıysa telafi yapılacak ders bulunmadığı yönünde aşağıdaki uyarı ekranı görülür.
+
+
+
+![Yeni telafi](/img/mazeret/mazeret3.png)
+
 
 ---
 
-## Özet Bilgiler
+### Özet Bilgiler
 
 Sayfanın orta bölümünde telafi durumuna dair özet kartlar bulunur:
 
@@ -37,11 +75,12 @@ Sayfanın orta bölümünde telafi durumuna dair özet kartlar bulunur:
 
 ---
 
-## Telafi Listesi
+### Telafi Listesi
 
-Telafiler tablo yapısında listelenir.
+
 
 ![Telafi Listesi](/img/mazeret/mazeret2.png)
+
 
 Her satırda şu bilgiler yer alır:
 
@@ -54,11 +93,11 @@ Her satırda şu bilgiler yer alır:
 | **Durum** | Telafinin mevcut durumu (Devam Ediyor / Tamamlandı / Süresi Doldu) |
 | **Tarih** | Telafinin oluşturulduğu tarih |
 | **Son Tarih** | Telafinin tamamlanması gereken son tarih |
-| **İşlemler** | Telafiye devam etmek için kullanılan işlem butonları |
+| **İşlemler** | Telafiyi izlemeye başlamak ve devam etmek için kullanılan işlem butonları |
 
 ---
 
-## Telafi Durumları
+### Telafi Durumları
 
 Telafi kayıtları farklı durumlar ile gösterilir:
 

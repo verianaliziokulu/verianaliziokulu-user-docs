@@ -4,43 +4,39 @@ sidebar_position: 5
 
 # Ders İtirazlarım
 
-Bu sayfa, Veri Analizi Okulu platformunda katılımcıların **ders katılım durumlarına ilişkin itirazlarını** görüntüleyebildiği alandır.  
-Sol menüden **Ders İtirazlarım** seçildiğinde, daha önce oluşturulmuş itirazlar listelenir.
+Bu sayfa, katılımcıların **ders katılım durumlarına ilişkin itirazlarını** görüntüleyebildiği alandır.  
 
-## Sayfa Genel Görünümü
-
-İtirazlar, tablo yapısında listelenir ve her bir itirazın durumu takip edilebilir.
 
 ![Ders İtirazlarım Sayfası](/img/itiraz/itiraz.png)
 
 ---
-### Bu ekranda yer alan bilgiler:
+Bu ekranda yer alan bilgiler:
 
 | Alan | Açıklama |
 | --- | --- |
 | **Ders Bilgisi** | İtirazın ait olduğu dersin adı, ders kodu ve ilgili hafta/oturum bilgisi |
 | **İtiraz Nedeni** | İtirazın hangi gerekçeyle oluşturulduğu |
-| **Durum** | İtirazın değerlendirme durumu (İncelemede / Kabul Edildi / Reddedildi) |
+| **Durum** | İtirazın değerlendirme durumu |
 | **Tarih** | İtirazın sisteme kaydedildiği tarih ve saat |
-| **Etiketler** | Dersin ve itirazın durumunu gösteren bilgilendirme etiketleri |
+
+---
+:::tip
+- İtiraz başvurunuzu **Genel Durum** sayfasında, ilgili dersin **İşlemler** sütununda yer alan **İtiraz** butonu üzerinden yapabilirsiniz.
+- İtiraz başvuruları, dersin tamamlanmasından itibaren 3 gün içerisinde oluşturulabilmektedir. Bu sürenin sona ermesinin ardından ilgili buton sistemden otomatik olarak kaldırılır.
+:::
+---
+
+Önceki itiraz başvurunuzla ilgili bilgileri itirazın üzerine tıkladığınızda görebilirsiniz.  
+![Önceki itiraz](/img/itiraz/itiraz2.png)
 
 
-## İtiraz Durumları
+### İtiraz Durumları
 
-İtirazların durumu renkli etiketler ile gösterilir:
-
-- **İtiraz Reddedildi**: İtiraz değerlendirilmiş ve kabul edilmemiştir.
+- **İtiraz Reddedildi - Telafi Hakkı Verildi**: İtiraz değerlendirilmiş ve kabul edilmemiştir, telafi oluşturularak ders izlenebilir.
 - **İtiraz Kabul Edildi**: İtiraz kabul edilmiş ve katılım durumu güncellenmiştir.
 - **İncelemede**: İtiraz henüz değerlendirme aşamasındadır.
 
 ---
-
-## İtiraz Süreci
-
-- Her itiraz sistem üzerinden kayıt altına alınır.
-- Değerlendirme sonucu bu sayfa üzerinden takip edilebilir.
-- Sonuçlandığında itiraz durumu otomatik olarak güncellenir.
-
 
 :::tip
 İtiraz sonucunu takip etmek için bu sayfayı düzenli olarak kontrol etmeniz önerilir.
