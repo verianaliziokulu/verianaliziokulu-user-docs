@@ -1,63 +1,94 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Şifre Al
+# Şifre Al (İlk Giriş)
 
-İlk kez platforma erişiyorsanız veya kurumsal hesap oluşturulduysa, şifrenizi nasıl alacağınızı öğrenin.
+Bu sayfada Veri Analizi Okulu platformuna **ilk defa giriş yapacak katılımcıların** nasıl şifre alacaklarını öğrenebilirsiniz.
 
-## Kurumsal Hesaplar İçin
+## Kimler Bu Sayfayı Kullanmalı?
 
-Eğer kurumunuz tarafından hesabınız oluşturulduysa:
+- Veri Analizi Okulu’na **kayıt olmuş**
+- Ancak daha önce **hiç giriş yapmamış**
+- Kendisine sistem tarafından otomatik bir şifre bildirilmemiş katılımcılar
 
-### 1. Davet E-postasını Kontrol Edin
+> Daha önce giriş yapıp şifresini unutan kullanıcılar için bu sayfa yerine **Şifremi Unuttum** seçeneği kullanılmalıdır. [Şifremi Unuttum](/docs/vao-hesabi/sifremi-unuttum) sayfasını ziyaret edin.
 
-Hesabınız oluşturulduğunda kayıtlı e-posta adresinize bir davet e-postası gönderilir.
+---
 
-### 2. Şifre Oluşturma Linkine Tıklayın
+## Adım Adım Şifre Alma
 
-E-postadaki **"Şifre Oluştur"** butonuna tıklayın.
+### 1. Giriş Sayfasına Gidin
 
-### 3. Şifrenizi Belirleyin
+Şu linkteki [giriş ekranında](https://obs.verianaliziokulu.com/login) **“Şifre Al”** bağlantısını seçin.
 
-Güvenli bir şifre oluşturun ve hesabınıza erişmeye başlayın.
+![Şifre Al bağlantısı](/img/sifre-al/sifre-al-link.png)
 
-## Bireysel Kayıt
+---
 
-Yeni bir hesap oluşturmak için:
+### 2. E-posta Adresinizi Girin
 
-### 1. Kayıt Sayfasına Gidin
+**Şifre Al** sayfasında, Veri Analizi Okulu’na kayıt olurken kullandığınız **e-posta adresini** ilgili alana girin.
 
-Ana sayfadaki **"Kayıt Ol"** butonuna tıklayın.
+![Şifre Al sayfası](/img/sifre-al/sifre-al-form.png)
 
-### 2. Bilgilerinizi Doldurun
+| Alan        | Açıklama                                                                    |
+| ----------- | --------------------------------------------------------------------------- |
+| **E-posta** | Veri Analizi Okulu başvurusu sırasında sisteme bildirdiğiniz e-posta adresi |
 
-| Alan | Açıklama |
-|------|----------|
-| **Ad Soyad** | Gerçek adınız ve soyadınız |
-| **E-posta** | Geçerli bir e-posta adresi |
-| **Şifre** | Güvenlik kriterlerini karşılayan bir şifre |
-| **Şifre Tekrar** | Şifrenizi doğrulamak için tekrar girin |
+---
 
-### 3. Hesabınızı Doğrulayın
+### 3. Güvenlik Doğrulamasını Tamamlayın
 
-Kayıt sonrası e-posta adresinize gelen doğrulama linkine tıklayın.
+Robot olmadığınızı doğrulamak için **reCAPTCHA** alanını işaretleyin.
 
-:::warning Doğrulama Zorunludur
-E-posta doğrulaması yapılmadan hesabınız aktif olmayacaktır. Doğrulama e-postası gelmediyse spam klasörünü kontrol edin.
+> Bu adım, sistem güvenliği ve toplu kötüye kullanımın önlenmesi amacıyla zorunludur.
+
+---
+
+### 4. Şifre Talebini Gönderin
+
+**“Şifre Gönder”** butonuna tıklayın.
+
+- Eğer e-posta adresiniz sistemde kayıtlıysa:
+  - Şifre talebiniz işleme alınır
+  - Yeni şifreniz **e-posta yoluyla** tarafınıza gönderilir
+
+---
+
+## Olası Hatalar ve Çözümleri
+
+### “Kayıtlı öğrenci bulunamadı (DDB).” Hatası
+
+Bu hata aşağıdaki durumlarda alınabilir:
+
+- Girilen e-posta adresi Veri Analizi Okulu sisteminde **kayıtlı değilse**
+- E-posta adresinde **yazım hatası (typo)** varsa
+- Farklı bir e-posta adresi ile başvuru yapılmışsa
+
+**Çözüm önerileri:**
+
+- E-posta adresinizi dikkatlice tekrar kontrol edin
+- Büyük/küçük harf, nokta ve uzantı (`gmail.com`, `edu.tr` vb.) hatalarına dikkat edin
+- Başvuru sırasında kullandığınız e-posta adresini kullandığınızdan emin olun
+
+Sorun devam ederse destek ekibiyle iletişime geçmeniz önerilir.
+
+---
+
+## Giriş Sayfasına Dönüş
+
+Şifre alma işleminden vazgeçmek isterseniz veya işlemi tamamladıysanız, sayfanın alt kısmındaki  
+**“Giriş sayfasına dön”** bağlantısını kullanabilirsiniz.
+
+---
+
+## İpuçları
+
+:::tip İlk Giriş İçin Öneriler
+
+- Şifreniz geldikten sonra ilk girişte mutlaka değiştirin
+- Şifre e-postası spam klasörüne düşebilir, kontrol etmeyi unutmayın
+- Ortak bilgisayarlarda şifreyi kaydetmeyin
+
 :::
-
-## E-posta Gelmedi mi?
-
-Şifre alma veya doğrulama e-postası gelmediyse:
-
-1. **Spam/Gereksiz** klasörünü kontrol edin
-2. E-posta adresinizin doğru olduğundan emin olun
-3. **5 dakika** bekleyin ve tekrar isteyin
-4. Farklı bir e-posta sağlayıcısı kullanıyorsanız, e-postanın engellenmiş olabileceğini kontrol edin
-
-## Yardım
-
-Hâlâ şifre alamıyorsanız, destek ekibimizle iletişime geçin. Size en kısa sürede yardımcı olacağız.
-
-
